@@ -23,14 +23,9 @@ page_sections:
   - template: hero-banner-w-image
     block: hero-2
     slug: features
-    headline: uBuild <br><strong>design blocks</strong>
+    headline: Devin Becker
     content:
-      <p>Devin Becker is the Director of the <a href="https://cdil.lib.uidaho.edu/">Center for Digital Inquiry and Learning</a> (CDIL) and the Head of Data &amp; Digital Services at the <a href="https://www.lib.uidaho.edu//">University of Idaho Library</a>, where he directs and maintains the library's <a href="https://www.lib.uidaho.edu/digital/">digital initiatives program</a>. His library work has been awarded funding from the National Endowment for the Humanities (NEH), the Idaho Humanities Council (IHC), the United States Geological Survey (USGS), and the US Agricultural Information Network (USAIN). In 2014, he was named a <em>Library Journal</em> <a href="https://lj.libraryjournal.com/2014/03/people/movers-shakers-2014/devin-becker-movers-shakers-2014-tech-leaders/">Mover &amp; Shaker</a>.</p>
-      <p>Becker is also a writer. His first collection of poetry, <a href="https://devinbecker.org/#book"><em>Shame </em>|<em> Shame</em></a>, was selected by David St. John as the winner of the thirteenth annual A. Poulin, Jr. Poetry Prize and was published by BOA Editions LTD in 2015. Becker has published poetry and research articles in <em>American Archivist, Cutbank, Microform and Digitization Review, Midwestern Gothic, Prairie Schooner,</em> and elsewhere. He is currently serving as a 2017-2019 Idaho Commission for the Arts Literature Fellow.</p>
-      <p>Becker received a B.A. in English and Religion from Williams College, an MFA in English (Poetry) from the University of California, Irvine, and a Masters of Library Science from Indiana University. He lives in Moscow, Idaho with his wife, daughter, and dog (Rufus).</p>
-
-      <p>Becker was born and raised in Fort Wayne, Indiana, and remains to this day much too emotionally invested in the Indiana Hoosier basketball team.</p>
-      </div>
+      Devin Becker is a poet and librarian living in Moscow, Idaho. He directs the <a href="https://cdil.lib.uidaho.edu/">Center for Digital Inquiry and Learning</a> (CDIL) and leads the Data &amp; Digital Services at the <a href="https://www.lib.uidaho.edu//">University of Idaho Library</a> His first collection of poetry, <a href="https://devinbecker.org/#book"><em>Shame </em>|<em> Shame</em></a>, won the A. Poulin, Jr. Poetry Prize and was published by BOA Editions LTD in 2015. Becker's work has been published in <em>American Archivist, Code4Lib, Cutbank, Microform and Digitization Review, Midwestern Gothic, Prairie Schooner,</em> and elsewhere.</p> 
     cta:
       enabled: true
       url: https://formes

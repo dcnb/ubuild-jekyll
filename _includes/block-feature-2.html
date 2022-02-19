@@ -2,7 +2,7 @@
   <div class="container">
     <div class="columns">
       <div class="column media">
-          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">
+        <a href="{{ section.media.link | relative_url }}" target="_blank"><img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy"></a>
       </div>
       <div class="column text">
           <h2><span class="light">{{ section.headline }}</span></h2>

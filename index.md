@@ -8,15 +8,11 @@ page_sections:
     logo: "/uploads/2018/06/21/forestry-full.svg"
     navigation:
       - link: "/"
-        link_text: Devin Becker
-      - link: "#swap"
-        link_text: Swap
-      - link: "#customize"
-        link_text: Customize
-      - link: "#responsive"
-        link_text: Responsive
-      - link: "#blocks"
-        link_text: Blocks
+        link_text: Home
+      - link: "#book"
+        link_text: Book
+      - link: "#projects"
+        link_text: Projects
     cta:
       url: https://devinbecker.org
       button_text: go to the site
@@ -39,14 +35,22 @@ page_sections:
     media_alignment: Left
     slug: swap
     headline:
-      <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-      class="light">the Blocks to create sites quickly</span>
+      <strong>Shame | Shame</strong>
     content:
-      Quickly assemble and create custom sites with 16 design blocks for seven
-      different sections.
+      <h3><em>Shame | Shame</em> (BOA Editions, 2015)</h3>
+      <p>Selected by David St. John as the 2014 winning manuscript for the A. Poulin Jr. Prize.</p>
+      <p style="text-decoration:italic">"Devin Becker's Shame | Shame is a brilliant debut collection. Here, the prose poem has been re-imagined as a cinematic vignette, yet rooted as deeply in the American Northwest as anything in Richard Hugo and David Lynch. Raw, intimate, and elliptical in its metaphysics, Devin Becker's poetry captures an idiomatic recklessness while navigating those angular narratives of our contemporary lives."</p>
+      <p style="text-align:right">—David St. John, from the Introduction</p>
+      <ul>
+      <li><a href="https://www.boaeditions.org/collections/poetry/products/shame-shame" target="_blank">BOA Editions, LLC</a></li>
+      <li><a href="https://www.amazon.com/Shame-Devin-Becker/dp/1938160592" target="_blank">Amazon.com</a></li>
+      </ul><h3>Reviews of Shame | Shame</h3>
+      <p>Sarah Katz, at <a href="http://nanofiction.org/weekly-feature/reviews/2015/09/shame-shame-by-devin-becker">NANO Fiction</a> -  "Becker’s work joins him on the one hand to recent prose works such as Sarah Manguso’s <em>Ongoingness</em>, Maggie Nelson’s <em>The Argonauts</em>, and Jenny Offill’s <em>Dept. of Speculation</em>, but, on the other hand, to the more metaphysical spirit of poets Russell Edson and Zachary Schomburg." <span style="font-size:smaller">(<a href="http://nanofiction.org/weekly-feature/reviews/2015/09/shame-shame-by-devin-becker">Full Review Here</a>) </span></p>
+      <p>Eric Severn, at <a href="http://www.neworleansreview.org/shameshame/">New Orleans Review</a> -  "For Becker, the disenchanted self reaches past a self-congratulatory tone toward irony’s antitheses——feeling, and vulnerability——thus answering [David Foster] Wallace’s call for a new sincerity in an unforeseen way. Rather than bald sincerity, as Wallace forecasted, these poems use irony to achieve the very kind of sincerity that irony tends to parody." <span style="font-size:smaller">(<a href="http://www.neworleansreview.org/shameshame/">Full Review Here</a>) </span></p>
     media:
-      image: "/uploads/2018/06/21/blocks-split.png"
-      alt_text: uBuild Blocks Mock-Up
+      image: "https://cdn.shopify.com/s/files/1/0982/0178/products/ShameShame_Front_large.jpg?v=1527683341"
+      alt_text: Shame Shame Book Cover
+      link: "https://www.boaeditions.org/products/shame-shame"
   - template: content-feature
     block: feature-1
     media_alignment: Right

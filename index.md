@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Homepage
+title: Homepage for Devin
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
@@ -8,7 +8,7 @@ page_sections:
     logo: "/uploads/2018/06/21/forestry-full.svg"
     navigation:
       - link: "/"
-        link_text: Ubuild
+        link_text: Devin Becker
       - link: "#swap"
         link_text: Swap
       - link: "#customize"
@@ -18,22 +18,26 @@ page_sections:
       - link: "#blocks"
         link_text: Blocks
     cta:
-      url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-      button_text: Import
+      url: https://devinbecker.org
+      button_text: go to the site
   - template: hero-banner-w-image
     block: hero-2
     slug: features
     headline: uBuild <br><strong>design blocks</strong>
     content:
-      The tool that allows you to build beautiful sites<br>all inside Forestry's
-      content manager.
+      <p>Devin Becker is the Director of the <a href="https://cdil.lib.uidaho.edu/">Center for Digital Inquiry and Learning</a> (CDIL) and the Head of Data &amp; Digital Services at the <a href="https://www.lib.uidaho.edu//">University of Idaho Library</a>, where he directs and maintains the library's <a href="https://www.lib.uidaho.edu/digital/">digital initiatives program</a>. His library work has been awarded funding from the National Endowment for the Humanities (NEH), the Idaho Humanities Council (IHC), the United States Geological Survey (USGS), and the US Agricultural Information Network (USAIN). In 2014, he was named a <em>Library Journal</em> <a href="https://lj.libraryjournal.com/2014/03/people/movers-shakers-2014/devin-becker-movers-shakers-2014-tech-leaders/">Mover &amp; Shaker</a>.</p>
+      <p>Becker is also a writer. His first collection of poetry, <a href="https://devinbecker.org/#book"><em>Shame </em>|<em> Shame</em></a>, was selected by David St. John as the winner of the thirteenth annual A. Poulin, Jr. Poetry Prize and was published by BOA Editions LTD in 2015. Becker has published poetry and research articles in <em>American Archivist, Cutbank, Microform and Digitization Review, Midwestern Gothic, Prairie Schooner,</em> and elsewhere. He is currently serving as a 2017-2019 Idaho Commission for the Arts Literature Fellow.</p>
+      <p>Becker received a B.A. in English and Religion from Williams College, an MFA in English (Poetry) from the University of California, Irvine, and a Masters of Library Science from Indiana University. He lives in Moscow, Idaho with his wife, daughter, and dog (Rufus).</p>
+
+      <p>Becker was born and raised in Fort Wayne, Indiana, and remains to this day much too emotionally invested in the Indiana Hoosier basketball team.</p>
+      </div>
     cta:
       enabled: true
-      url: https://github.com/forestryio/ubuild-jekyll
-      button_text: "See on GitHub "
+      url: https://formes
+      button_text: "Check out Formes "
     image:
-      image: "/uploads/2018/06/21/product-shot-1.png"
-      alt_text: Product Shot
+      image: "https://lib-static.onrender.com/images/homepage.png"
+      alt_text:  Formes screenshot of website
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
   - template: content-feature
     block: feature-1

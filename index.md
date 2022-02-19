@@ -52,9 +52,25 @@ page_sections:
     caption: CTRL+Shift
     image: "/uploads/assets/screenshot-2022-02-19-at-09-23-07-home-ctrl-shift-writing-practice-at-the-dawn-of-the-digital-era.png"
   image_2:
-    link: ''
-    image: ''
-    caption: ''
+    link: https://cdil.lib.uidaho.edu/storying-extinction/f
+    image: https://cdil.lib.uidaho.edu/storying-extinction/objects/Sandpoint-caribou-mural.jpg
+    caption: Storying Extinction
+  image_3:
+    link: https://collectionbuilder.github.io/
+    image: https://collectionbuilder.github.io/images/logo/cb-logo-solid-vgold-transparent.png
+    caption: CollectionBuilder’
+  image_4:
+    link: https://poetry.lib.uidaho.edu/
+    image: https://poetry.lib.uidaho.edu/wp-content/uploads/2016/03/poemBot3.jpg’
+    caption: Vandal Poem of the Day
+  image_5:
+    link: https://thecdil.github.io/dramaturgy/
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Edwin_Landseer_-Scene_from_A_Midsummer_Night%27s_Dream._Titania_and_Bottom-Google_Art_Project.jpg/1600px-Edwin_Landseer-Scene_from_A_Midsummer_Night%27s_Dream._Titania_and_Bottom-_Google_Art_Project.jpg’
+    caption: Digital Dramaturgy
+  image_6:
+    link: https://uidaholib.github.io/oral-history-as-data/
+    image: https://cdil.lib.uidaho.edu/images/ohd1.png
+    caption: Oral History as Data (OHD)
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -133,7 +149,6 @@ page_sections:
         <p>{{ p.short_description }}</p>
       </div>
       {% endfor %}
-
-       {% for p in site.data.projects%}
+{% for p in site.data.projects%}
       
-      {% endfor %}
+{% endfor %}

@@ -1,0 +1,87 @@
+---
+label: 2-column-media-element
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: media-2
+- type: field_group
+  name: image_1
+  label: " First Image"
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_2
+  label: Second Image
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_3
+  label: Third Image
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_4
+  label: Fourth Image
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_5
+  label: Fifth Image
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: image_6
+  label: Sixt Image
+  fields:
+  - type: text
+    name: link
+    label: Link
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: caption
+    label: Caption

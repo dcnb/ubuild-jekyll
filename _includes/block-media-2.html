@@ -3,16 +3,48 @@
     <div class="columns">
       <div class="column">
         <figure>
-          <img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" loading="lazy">
+          <a href="{{ section.image_1.link | relative_url }}" target="_blank"><img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}" loading="lazy"></a>
           {% if section.image_1.caption %}
-          <figcaption>{{ section.image_1.caption }}</figcaption>
+          <figcaption class="h3">{{ section.image_1.caption }}</figcaption>
           {% endif %}
         </figure>
       </div>
       <div class="column">
         <figure>
-            <img src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}" loading="lazy">
+          <a href="{{ section.image_2.link | relative_url }}" target="_blank"><img src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}" loading="lazy"></a>
             {% if section.image_2.caption %}
+            <figcaption>{{ section.image_2.caption }}</figcaption>
+            {% endif %}
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <a href="{{ section.image_3.link | relative_url }}" target="_blank"><img src="{{ section.image_3.image | relative_url }}" alt="{{ section.image_3.caption }}" loading="lazy"></a>
+          {% if section.image_3.caption %}
+          <figcaption>{{ section.image_3.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <a href="{{ section.image_4.link | relative_url }}" target="_blank"><img src="{{ section.image_4.image | relative_url }}" alt="{{ section.image_4.caption }}" loading="lazy"></a>
+            {% if section.image_4.caption %}
+            <figcaption>{{ section.image_4.caption }}</figcaption>
+            {% endif %}
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <a href="{{ section.image_5.link | relative_url }}" target="_blank"><img src="{{ section.image_5.image | relative_url }}" alt="{{ section.image_5.caption }}" loading="lazy"></a>
+          {% if section.image_5.caption %}
+          <figcaption>{{ section.image_5.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      </div>
+      <div class="column">
+        <figure>
+          <a href="{{ section.image_6.link | relative_url }}" target="_blank"><img src="{{ section.image_6.image | relative_url }}" alt="{{ section.image_6.caption }}" loading="lazy"></a>
+            {% if section.image_6.caption %}
             <figcaption>{{ section.image_2.caption }}</figcaption>
             {% endif %}
         </figure>

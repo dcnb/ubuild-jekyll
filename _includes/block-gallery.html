@@ -1,15 +1,10 @@
 <section class="block block-three-column-1">
   <h2>WORK</h2>
-  <div class="container">
-    <div class="columns">
-      {% for p in site.data.projects%}
-      <div class="column">
-        <h3>{{ p.title }}</h3>
-        <a href="{{ p.link }}" target="_blank">
-          <img src="{{ p.image }}">
-        </a>
-        <p>{{ p.short_description }}</p>
-      </div>
-      {% endfor %}
+{% for p in site.data.projects%}
+image_{{forloop.index}}:
+link: '{{p.link}}'
+image: '{{p.image}}'
+caption: '{{p.title}}'
+{% endfor %}
   </div>
 </section>

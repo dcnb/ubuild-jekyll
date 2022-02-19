@@ -10,7 +10,10 @@ fields:
 - type: field_group
   name: image_1
   label: " First Image"
-  fields:
+  fields:  
+  - type: text
+    name: link
+    label: Link
   - type: file
     name: image
     label: image
@@ -21,6 +24,9 @@ fields:
   name: image_2
   label: Second Image
   fields:
+  - type: text
+    name: link
+    label: Link
   - type: file
     name: image
     label: Image

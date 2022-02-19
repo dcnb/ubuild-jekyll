@@ -9,10 +9,10 @@ page_sections:
     navigation:
       - link: "/"
         link_text: Home
+      - link: "#work"
+        link_text: Work
       - link: "#book"
         link_text: Book
-      - link: "#projects"
-        link_text: Projects
     cta:
       url: https://devinbecker.org
       button_text: go to the site
@@ -24,16 +24,19 @@ page_sections:
       Devin Becker is a poet and librarian living in Moscow, Idaho. He directs the <a href="https://cdil.lib.uidaho.edu/">Center for Digital Inquiry and Learning</a> (CDIL) and leads the Data &amp; Digital Services at the <a href="https://www.lib.uidaho.edu//">University of Idaho Library</a> His first collection of poetry, <a href="https://devinbecker.org/#book"><em>Shame </em>|<em> Shame</em></a>, won the A. Poulin, Jr. Poetry Prize and was published by BOA Editions LTD in 2015. Becker's work has been published in <em>American Archivist, Code4Lib, Cutbank, Microform and Digitization Review, Midwestern Gothic, Prairie Schooner,</em> and elsewhere.</p> 
     cta:
       enabled: true
-      url: https://formes
-      button_text: "Check out Formes "
+      url: #work
+      button_text: "See My Work"
     image:
       image: "https://lib-static.onrender.com/images/homepage.png"
       alt_text:  Formes screenshot of website
     background_image: "/uploads/2018/06/21/hero-2-bg.png"
   - template: content-feature
+    block: gallery
+    slug: work
+  - template: content-feature
     block: feature-1
     media_alignment: Left
-    slug: swap
+    slug: book
     headline:
       <strong>Shame | Shame</strong>
     content:
@@ -87,3 +90,16 @@ page_sections:
     block: footer-1
     content: Made with ❤︎ in Canada
 ---
+ {% for p in site.data.projects%}
+      <div class="column">
+        <h3>{{ p.title }}</h3>
+        <a href="{{ p.link }}" target="_blank">
+          <img src="{{ p.image }}">
+        </a>
+        <p>{{ p.short_description }}</p>
+      </div>
+      {% endfor %}
+
+       {% for p in site.data.projects%}
+      
+      {% endfor %}

@@ -45,6 +45,16 @@ page_sections:
     image: ''
     alt_text: ''
   media_alignment: ''
+- template: 2-column-media-element
+  block: media-2
+  image_1:
+    link: https://ctrl-shift.org/
+    caption: CTRL+Shift
+    image: "/uploads/assets/screenshot-2022-02-19-at-09-23-07-home-ctrl-shift-writing-practice-at-the-dawn-of-the-digital-era.png"
+  image_2:
+    link: ''
+    image: ''
+    caption: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left

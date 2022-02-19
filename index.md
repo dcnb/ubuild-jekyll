@@ -45,7 +45,7 @@ page_sections:
     image: ''
     alt_text: ''
   media_alignment: ''
-- template: 2-column-media-element
+- template: 6-column-media-element
   block: media-2
   image_1:
     link: https://ctrl-shift.org/
